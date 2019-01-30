@@ -12,7 +12,7 @@
 ONL_GIT_NAME="https://github.com/jcsteven/OpenNetworkLinux.git"
 ONL_GIT_B=2019-0103-fixed-tg3
 ONL_NAME=OpenNetworkLinux
-ONL_DIR=${PPWW}/${ONL_NAME}
+ONL_DIR=${HOME}/${ONL_NAME}
 
 BAL_NAME=bal_src_release
 BAL_DIR=${PPWW}/${BAL_NAME}
