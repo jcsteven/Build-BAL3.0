@@ -60,10 +60,10 @@ if [[ "${TO_PREPARE_BAL}" == "y" ]]; then
 	   exit -1
 	fi
 
-	if [ ! -f "${EDGECORE_DOWNLOAD_DIR}/${PATCH_FILENAME}" ]; then
-	   echo $LINENO "missing ${BROADCOM_DOWNLOAD_DIR}/${PATCH_FILENAME}" |  tee -a $Record_File
-	   exit -1
-	fi
+	#if [ ! -f "${EDGECORE_DOWNLOAD_DIR}/${PATCH_FILENAME}" ]; then
+	#   echo $LINENO "missing ${BROADCOM_DOWNLOAD_DIR}/${PATCH_FILENAME}" |  tee -a $Record_File
+	#   exit -1
+	#fi
 
 	
 	echo "1. Prepare  BAL "
